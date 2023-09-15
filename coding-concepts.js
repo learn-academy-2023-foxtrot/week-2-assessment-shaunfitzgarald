@@ -11,8 +11,8 @@
 const cohort = "Foxtrot 2023"
 // console.log(cohort.split(""))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: It will split the string into an array.
+// b) Verify and explain: My answer is correct, it splits the string into an array
 
 // --------------------2) What will this log?
 
@@ -21,24 +21,24 @@ const greeter = (name) => {
 }
 // console.log(greeter("LEARN Student"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: This will logg "Hello, LEARN Student!"
+// b) Verify and explain: It logged undefined.
 
 // --------------------3) What will this log?
 
 const multipliedByTwo = [4, 5, 6, 7, 8].map((number) => number * 2)
 // console.log(multipliedByTwo)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: [8,10, 12, 14, 16]
+// b) Verify and explain: My answer is correct.
 
 // --------------------4) What will this log?
 
 const onlyOdds = [11, 12, 13, 14, 15].filter((number) => number % 2 !== 0)
 // console.log(onlyOdds)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:[11, 13, 15]
+// b) Verify and explain: My answer is correct.
 
 // --------------------5) What will this log?
 
@@ -50,8 +50,8 @@ const myCodingSkills = {
 }
 // console.log(myCodingSkills.languages[0])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: "Javascript"
+// b) Verify and explain: My answer is correct, it logged "JavaScript".
 
 // --------------------STRETCH: What will this log?
 
@@ -63,7 +63,7 @@ class Learn {
   }
 }
 const learnStudent = new Learn("George")
-// console.log(learnStudent)
+console.log(learnStudent)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: George, "Echo", 2023
+// b) Verify and explain: It logged "Learn { student: 'George', cohort: 'Echo', year: 2023 }". My answer was close, I just didn't expect it to label each piece of information.
